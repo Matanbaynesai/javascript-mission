@@ -1,0 +1,95 @@
+.container{
+    height: 120vh;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container{
+    width: 550px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    /* justify-content: space-between; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+.cover{
+    padding: 5px;
+    height: 220px;
+    border: 1px solid teal;
+}
+h1{
+    font-size: larger;
+    background-color: rgb(211, 211, 211);
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    font-size: medium;
+    margin-top: -10px;
+}
+.text{
+    margin-top: -10px;
+}
+.btns{
+    display: flex;
+    padding-top: 1px;
+    padding-right: 5px;
+}
+#like{
+    margin-right: 20px;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.like-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.like-text{
+    display: flex;
+    margin-bottom: 10px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.emojis img{
+    width: 50px;
+    height: 50px;
+}
+.sad-img{
+    background-image: url("https://brachot.net/images/category_images/234.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 200px;
+    height: 200px;
+  }
+  
+.smile-img{
+    background-image: url("https://www.yo-yoo.co.il/coolpics/images/uploads/yellow1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 200px;
+    height: 200px;
+  }
+ 
+.active{
+    background-color: red;
+}
+
+
